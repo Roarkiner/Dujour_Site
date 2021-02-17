@@ -1,0 +1,133 @@
+.wrapper{
+  width: 120px;
+  height: 120px;
+  transform-origin: 50% 110px;
+  animation-name: chat_roule;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+.cat{
+  width: 116px;
+  height: 116px;
+  border-radius: 60px;
+  border: solid 2px black;
+  background-color: lightgrey;
+  position: absolute;
+  top: 50px;
+}
+
+.ear, .in_ear{
+  width: 0;
+  height: 0;
+  border-left: solid 25px transparent;
+  border-right: solid 30px transparent;
+  position: absolute;
+}
+
+.ear{
+  border-bottom: solid 55px black;
+  z-index: -2;
+}
+
+.left_ear{
+  top: -23px;
+  left: -18px;
+  transform: rotate(-30deg);
+}
+
+.right_ear{
+  top: -22px;
+  left: 82px;
+  transform: rotate(35deg);
+}
+
+.in_ear{
+  border-bottom: solid 55px #999;
+  z-index: -1;
+}
+
+.left_in_ear, .right_in_ear{
+  top: 4px;
+  left: -25px;
+}
+
+.eye{
+  width: 17px;
+  height: 35px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 55px;
+}
+
+.left_eye{
+  left: 30px;
+}
+
+.right_eye{
+  left: 73px;
+}
+
+.ward{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: lightgrey;
+  position: absolute;
+  top: 2px;
+  left: -2px;
+}
+
+.nose{
+  width: 8px;
+  height: 3px;
+  border-radius: 50%;
+  border: solid 3px black;
+  position: absolute;
+  top: 87px;
+  left: 53px;
+  z-index: 3;
+}
+
+.hide{
+  width: 28px;
+  height: 8px;
+  background-color: lightgrey;
+  position: absolute;
+  top: 90px;
+  left: 46px;
+  z-index: 2;
+}
+
+.mouth{
+  position: absolute;
+  top: 90px;
+  left: 46px;
+}
+
+.circle{
+  width: 10px;
+  height: 12px;
+  border-radius: 50%;
+  border: solid 2px black;
+  position: absolute;
+}
+
+.circle1{
+  left: 1px;
+}
+
+.circle2{
+  left: 13px;
+}
+
+@keyframes chat_roule {
+  o% {
+    transform: translate(0%, 0%);
+  }
+  100% {
+    transform: translate(calc(100vw - 133px), 0) rotate(720deg);
+  }
+}
