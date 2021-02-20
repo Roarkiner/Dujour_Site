@@ -9,8 +9,24 @@
 
   <body>
 
-    <header>
-      <div class="cat_wrapper">
+      <header>
+        <div id="h1_wrapper">
+          <h1>Lénaïc DUJOUR</h1>
+          <img src="../Assets/icon-programmer.jpg" alt="Programmer icon">
+        </div>
+        <nav>
+          <table id="navigation">
+            <tr>
+              <td> <a href="#"> <div> <h2>Mon parcours</h2> </div> </a> </td>
+              <td> <a href="#"> <div> <h2>Ce que j'aime</h2> </div> </a> </td>
+              <td> <a href="#"> <div> <h2>Simplon et moi</h2> </div> </a> </td>
+            </tr>
+          </table>
+        </nav>
+      </header>
+
+      <div id="title_hider"></div>
+      <div id="cat_wrapper">
         <div class="cat">
           <div class="ear left_ear">
             <div class="in_ear left_in_ear"></div>
@@ -32,32 +48,55 @@
           </div>
         </div>
       </div>
-      <nav>
-        <ul>
-          <li> <a href="#">Mon parcours</a> </li>
-          <li> <a href="#">Ce que j'aime</a> </li>
-          <li> <a href="#">Simplon et moi</a> </li>
-        </ul>
-      </nav>
-    </header>
-    <article>
 
-    </article>
+      <article class="main_article">
+        <h2>Bienvenue sur mon site!</h2>
+        <div class="flex_row">
+          <section>
+            <h3>Faisons les présentations</h3>
+            <ul>
+              <li>
+                <h4>Qui suis-je?</h4>
+                <p></br></br></p>
+              </li>
+              <li>
+                <h4>Que faites vous ici?</h4>
+                <p></br></br></p>
+              </li>
+              <li>
+                <h4>Qu'y a-t-il sur ce site?</h4>
+                <p></br></br></p>
+              </li>
+            </ul>
+          </section>
+          <aside class="about">
+            <h2>À propos de moi...</h2>
+            <img src="../Assets/Profile.png" alt="PhotoProfil">
+            <ul>
+              <li>A finit Paper Mario 64 8 fois</li>
+              <li>Est un expert en échec critique</li>
+              <li>Préfère les pâtes carbonaras aux pâtes bolognaise</li>
+            </ul>
+          </aside>
+        </div>
+        <p>Cela étant dit... Je vous souhaite une bonne exploration du site et une bonne lecture!</p>
+      </article>
     <footer>
-      <section>
-        <h1>Me contacter</h1>
+      <div id="contact">
+        <h2>Me contacter</h2>
         <ul>
-          <li><img alt="Teléphone" src=""> <a href="tel:+033771180181">07 71 18 01 81</a></li>
+          <li><a href="tel:0771180181"><img alt="Teléphone" src="../Assets/phone-call.svg"> 07 71 18 01 81</a></li> <!-- Icon by https://www.flaticon.com/authors/prosymbols -->
+          <li><a href="mailto:dujour.lenaic@gmail.com"><img alt="EMail" src="../Assets/email.svg"> dujour.lenaic@gmail.com</a></li> <!-- Icon by https://www.flaticon.com/authors/pixel-perfect -->
         </ul>
-      </section>
-      <nav>
-        <h1>Liens utiles</h1>
+      </div>
+      <div id="social_links">
+        <h2>Liens utiles</h2>
         <ul>
-          <li><img alt="GitHub" src=""> <a href="#">Mon profil GitHub</a></li>
-          <li><img alt="LinkedIn" src=""> <a href="#">Mon profil LinkedIn</a></li>
-          <li><img alt="SoloLearn" src=""> <a href="#">Mon profil SoloLearn</a></li>
+          <li><a href="#"><img alt="GitHub" src="../Assets/GitHub.png"> Mon profil GitHub</a></li>
+          <li><a href="#"><img alt="LinkedIn" src="../Assets/LinkedIn.png"> Mon profil LinkedIn</a></li>
+          <li><a href="#"><img alt="SoloLearn" src="../Assets/SoloLearn.svg"> Mon profil SoloLearn</a></li>
         </ul>
-      </nav>
+      </div>
     </footer>
   </body>
 </html>

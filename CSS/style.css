@@ -1,0 +1,160 @@
+body{
+  margin: 0;
+  font-family: arial;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+footer ul{
+  list-style: none;
+  padding: 0;
+}
+
+#h1_wrapper{
+  height: 170px;
+  display: flex;
+}
+
+#h1_wrapper h1{
+  margin-top: auto;
+  margin-bottom: 0;
+  margin-left: 100px;
+  font-size: 5em;
+}
+
+#h1_wrapper img{
+  margin-top: auto;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  height: 6em;
+}
+
+header{
+  background-color: #ececec;
+  min-width: 900px;
+  padding-bottom: 0;
+  border-bottom: 1px solid #444444;
+}
+
+header nav{
+  border-top: 1px solid black;
+  margin: 2em 0 0 0;
+  background-color: #bbb;
+}
+
+header nav h1{
+  font-size: 2em;
+}
+
+#navigation{
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+#navigation td{
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  box-shadow: inset 0px 5px 5px #999;
+}
+
+#navigation td div{
+  padding: 1px 100px 1px 100px;
+}
+
+#navigation td:hover{
+  background-color: #aaa;
+  box-shadow: inset 0px 5px 10px #666;
+}
+
+header li{
+  padding-left: 5em;
+  padding-right: 5em;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.main_article{
+  width: 90vw;
+  min-width: 900px;
+  margin: auto;
+  padding: 10px 40px 40px 40px;;
+}
+
+.flex_row{
+  display: flex;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+
+.flex_row section{
+  flex: 2;
+  min-width: 500px;
+}
+
+.about{
+  margin-left: 50px;
+  padding: 1.5em;
+  border: 1px solid #444444;
+  border-radius: 5px;
+  background-color: #f79999;
+}
+
+.about li{
+  margin-bottom: 10px;
+}
+
+.about img{
+  display: block;
+  height: 10em;
+  width: 10em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+footer{
+  min-width: 900px;
+  height: 200px;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #444444;
+  background-color: #f3d250;
+}
+
+footer div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+footer ul{
+  height: 100px;
+  display: flex;
+  margin-bottom: 0;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+footer a{
+  display: flex;
+  align-items: center;
+}
+
+footer img{
+  width: 32px;
+  height: 32px;
+  margin-right: 20px;
+}
+
+#social_links li{
+  margin-bottom: 10px;
+}
