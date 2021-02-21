@@ -1,5 +1,22 @@
+@font-face {
+  font-family: 'Questa';
+  src: url("../Assets/Fonts/2-Questa_Regular-webfont.woff2") format("woff2"),
+    url("../Assets/Fonts/2-Questa_Regular-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Indiana';
+  src: url("../Assets/Fonts/Indiana.otf") format("otf"),
+  url("../Assets/Fonts/Indiana.woff") format("woff");
+  font-style: normal;
+}
+
 body{
   margin: 0;
+  font-family: 'Questa';
+}
+
+h2{
   font-family: arial;
 }
 
@@ -22,7 +39,8 @@ footer ul{
   margin-top: auto;
   margin-bottom: 0;
   margin-left: 100px;
-  font-size: 5em;
+  font-size: 4em;
+  font-family: 'Indiana';
 }
 
 #h1_wrapper img{
@@ -34,7 +52,7 @@ footer ul{
 
 header{
   background-color: #ececec;
-  min-width: 900px;
+  min-width: 1100px;
   padding-bottom: 0;
   border-bottom: 1px solid #444444;
 }
@@ -79,9 +97,22 @@ header li{
 
 .main_article{
   width: 90vw;
-  min-width: 900px;
+  min-width: 1100px;
   margin: auto;
   padding: 10px 40px 40px 40px;;
+}
+
+h3{
+    font-size: 1.5em;
+    font-family: arial;
+}
+
+h4{
+  font-size: 1.2em;
+}
+
+.main_article li, .main_article p{
+  font-size: 1.1em;
 }
 
 .flex_row{
@@ -98,6 +129,7 @@ header li{
 }
 
 .about{
+  flex: 1.2;
   margin-left: 50px;
   padding: 1.5em;
   border: 1px solid #444444;
@@ -105,14 +137,22 @@ header li{
   background-color: #8094b2;
 }
 
+.about ul{
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 .about li{
   margin-bottom: 10px;
+  font-size: 1.2em;
 }
 
 .about img{
   display: block;
-  height: 10em;
-  width: 10em;
+  height: 11em;
+  width: 11em;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -148,6 +188,10 @@ footer ul{
 footer a{
   display: flex;
   align-items: center;
+}
+
+footer a:hover{
+  color: darksalmon;
 }
 
 footer img{

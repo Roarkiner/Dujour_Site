@@ -1,4 +1,4 @@
-@media all and (min-width: 1000px) {
+@media all and (min-width: 1300px) {
   #title_hider{
     height: 120px;
     width: 1000px;
@@ -150,10 +150,10 @@
 
   @keyframes title_hider_fading {
     60% {
-      width: 300px;
+      width: 400px;
     }
     80% {
-      width: 300px;
+      width: 400px;
     }
     100% {
       transform: translate(calc(100vw - 20px),0);
