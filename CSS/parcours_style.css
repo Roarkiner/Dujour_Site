@@ -1,0 +1,50 @@
+.parcours{
+  display: flex;
+  margin-bottom: 50px;
+  box-shadow: 0px 15px 5px -15px #8094b2;
+}
+
+.article_text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex: 4;
+  padding: 20px;
+}
+
+.parcours figure:not(#video){
+  flex: 1;
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 299px;
+}
+
+.parcours img{
+  margin: auto;
+  max-width: 299px;
+  max-height: 176px;
+}
+
+.parcours figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+#video{
+  flex: 2;
+  border: thin #c0c0c0 solid;
+  padding: 5px;
+}
+
+iframe{
+  display: block;
+  width: 360px;
+  height: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
