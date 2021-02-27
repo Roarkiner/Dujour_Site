@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'WGA';
+  src: url("../Assets/Fonts/WFA.otf") format("otf"),
+    url("../Assets/Fonts/WGA.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Endbuster';
+  src: url("../Assets/Fonts/Endbuster.ttf") format("ttf"),
+    url("../Assets/Fonts/Endbuster.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'BOTW';
+  src: url("../Assets/Fonts/BOTW.otf") format("otf"),
+    url("../Assets/Fonts/BOTW.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Kittens';
+  src: url("../Assets/Fonts/Kittens.woff2") format("woff2"),
+    url("../Assets/Fonts/Kittens.woff") format("woff");
+}
+
+h3{
+  margin-left: 100px;
+}
+
+h3 img{
+    height: 1.5em;
+    position: relative;
+    top: 0.5em;
+    margin-right: 20px;
+}
+
+#code h3{
+  font-size: 3em;
+}
+
+#chat h3{
+  font-family: 'Kittens';
+  font-size: 3em;
+}
+
+#jeuxVideos h3{
+  font-family: 'BOTW';
+  font-size: 3.5em;
+}
+
+#jeuxDeRoles h3{
+  font-family: 'Endbuster';
+  font-size: 2.5em;
+}
+
+#piano h3{
+  font-family: 'WGA';
+  font-size: 3em;
+}
+
+#contenant_ecran{
+  height: 800px;
+  background-image: url("../Assets/computer_screen.png");
+  background-repeat: no-repeat;
+  background-size: auto 700px;
+  background-position: top;
+  display: flex;
+}
+
+#code .banniere{
+  width: 786px;
+  height: 493px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 29px;
+  left: -2px;
+  background-image: url("../Assets/coding.jpg");
+  background-size: cover;
+  display: flex;
+}
+
+#code .banniere p{
+  color: white;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: 0;
+  padding: 2%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+section:not(#code) .banniere{
+  height: 500px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  border-radius: 40px;
+  display: flex;
+}
+
+section:not(#code) .banniere p{
+  color: white;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: 0;
+  padding: 2%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: relative;
+  border-radius: 0 0 40px 40px;
+  top: 2px;
+}
+
+#chat .banniere{
+  background-image: url("../Assets/carbone.jpeg");
+  background-size: cover;
+  background-position: center;
+}
