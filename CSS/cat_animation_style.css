@@ -5,7 +5,7 @@
     position: absolute;
     top: 50px;
     left: -50px;
-    background-color: #ececec;
+    background-color: #ACB2B9;
     animation: title_hider_fading 3s 1 ease-in forwards;
   }
 

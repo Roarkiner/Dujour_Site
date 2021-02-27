@@ -17,8 +17,9 @@
 
   body{
     margin: 0;
-    font-family: 'Questa';
+    /* font-family: 'Questa'; */
     min-width: 1100px;
+    background-color: #BBBFC5;
   }
 
   h2{
@@ -53,16 +54,18 @@
   }
 
   header{
-    background-color: #ececec;
+    background-color: #ACB2B9;
     padding-bottom: 0;
     border-bottom: 1px solid #444444;
     min-width: inherit;
   }
 
   header nav{
+    color: white;
     border-top: 1px solid black;
     margin: 2em 0 0 0;
-    background-color: #41d350;
+    background-color: #45566B;
+    box-shadow: 5px 5px 5px #555;
   }
 
   header nav h1{
@@ -78,7 +81,7 @@
   #navigation td:not(.on){
     border-right: 1px solid black;
     border-left: 1px solid black;
-    box-shadow: inset 0px 5px 5px #35b742;
+    box-shadow: inset 0px 5px 5px #2C405E;
   }
 
   #navigation td div{
@@ -86,8 +89,8 @@
   }
 
   #navigation td:hover, .on{
-    background-color: #35b742;
-    box-shadow: inset 0px 5px 10px #297c31;
+    background-color: #394B65;
+    box-shadow: inset 0px 5px 10px #213046;
   }
 
   header li{
@@ -132,13 +135,14 @@
   }
 
   .about{
+    color: white;
     flex: 1.2;
     height: 100%;
     margin-left: 50px;
     padding: 1.5em;
     border: 1px solid #444444;
     border-radius: 5px;
-    background-color: #8094b2;
+    background-color: #45566B;
   }
 
   .about ul{
@@ -148,7 +152,7 @@
   }
 
   .about li{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 1.2em;
   }
 

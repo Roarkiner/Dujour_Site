@@ -22,8 +22,24 @@
     url("../Assets/Fonts/Kittens.woff") format("woff");
 }
 
+.header_block{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trait{
+  height: 0;
+  border: 2px solid black;
+  width: -moz-available;
+  width:-webkit-fill-available;
+}
+
 h3{
-  margin-left: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  min-width: fit-content;
+  min-width: -moz-fit-content;
 }
 
 h3 img{
@@ -84,7 +100,7 @@ h3 img{
   width: 100%;
   margin-top: auto;
   margin-bottom: 0;
-  padding: 2%;
+  padding: 2% 3% 2% 3%;
   background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -103,7 +119,7 @@ section:not(#code) .banniere p{
   width: 100%;
   margin-top: auto;
   margin-bottom: 0;
-  padding: 2%;
+  padding: 2% 3% 2% 3%;
   background-color: rgba(0, 0, 0, 0.7);
   position: relative;
   border-radius: 0 0 40px 40px;
@@ -112,6 +128,24 @@ section:not(#code) .banniere p{
 
 #chat .banniere{
   background-image: url("../Assets/carbone.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+#piano .banniere{
+  background-image: url("../Assets/piano.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+#jeuxVideos .banniere{
+  background-image: url("../Assets/jeu_video.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#jeuxDeRoles .banniere{
+  background-image: url("../Assets/board_game.jpg");
   background-size: cover;
   background-position: center;
 }
