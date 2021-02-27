@@ -19,7 +19,7 @@
     margin: 0;
     /* font-family: 'Questa'; */
     min-width: 1100px;
-    background-color: #BBBFC5;
+    background-color: #8ECAE6;
   }
 
   h2{
@@ -103,10 +103,11 @@
 /* Article rules */
 
   .main_article{
-    min-width: 1020px;
+    min-width: 700px;
     width: 90vw;
     margin: auto;
     padding: 10px 2% 40px 2%;
+    flex:2;
   }
 
   h3{
@@ -122,27 +123,19 @@
     font-size: 1.1em;
   }
 
-  .flex_row{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-between;
-  }
-
-  .flex_row section{
-    flex: 2;
-    min-width: 500px;
-  }
-
   .about{
     color: white;
-    flex: 1.2;
-    height: 100%;
-    margin-left: 50px;
     padding: 1.5em;
-    border: 1px solid #444444;
-    border-radius: 5px;
-    background-color: #45566B;
+    background-image: url("../Assets/profil.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 0.7;
+    z-index: -1;
+  }
+
+  .about:hover{
+
   }
 
   .about ul{
@@ -158,13 +151,14 @@
 
   .about img{
     display: block;
-    width: 50%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
-    border: 1px solid black;
-    border-radius: 20px;
-    box-shadow: 2px 2px 5px black;
+  }
+
+  .container{
+    display: flex;
   }
 
 /* Footer rules */
@@ -173,7 +167,6 @@
     min-width: inherit;
     color: white;
     height: 200px;
-    margin-top: 2%;
     display: flex;
     justify-content: space-around;
     border-top: 1px solid #444444;
