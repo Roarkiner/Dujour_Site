@@ -1,12 +1,12 @@
 @media all and (min-width: 1300px) {
   #title_hider{
     height: 120px;
-    width: 1000px;
+    width: 800px;
     position: absolute;
     top: 50px;
     left: -50px;
     background-color: #219EBC;
-    animation: title_hider_fading 3s 1 ease-in forwards;
+    animation: title_hider_fading 2.8s 1 ease-in forwards;
   }
 
   #cat_wrapper{
@@ -17,7 +17,7 @@
     top: 50px;
     transform-origin: 50% 50%;
     animation-name: chat_roule;
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-timing-function: ease-in;
     animation-fill-mode: forwards;
   }
@@ -149,15 +149,9 @@
   }
 
   @keyframes title_hider_fading {
-    60% {
-      width: 400px;
-    }
-    80% {
-      width: 400px;
-    }
     100% {
-      transform: translate(calc(100vw - 20px),0);
-      width: 0%;
+      transform: translate(calc(((100vw)*2)/3), 0);
+      width: 400px;
     }
   }
 }
